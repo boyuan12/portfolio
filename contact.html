@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+        <script src="https://smtpjs.com/v3/smtp.js">
+        </script>
+
+<h1>Elegant Contact Form</h1>
+<form class="cf" onsubmit="send_email(document.getElementById('input-name'), document.getElementById('input-email'), document.getElementById('input-subject'), document.getElementById('input-message'));">
+  <div class="half left cf">
+    <input type="text" id="input-name" placeholder="Name">
+    <input type="email" id="input-email" placeholder="Email address">
+    <input type="text" id="input-subject" placeholder="Subject">
+  </div>
+  <div class="half right cf">
+    <textareatype="text" id="input-message" placeholder="Message"></textareatype=>
+  </div>
+  <input type="submit" value="Submit" id="input-submit">
+</form>
+        <script>
+            function send_email(name, email, subject, body){
+                Email.send({
+                    SecureToken : "E5CA64E4FF73207F17C37EEE22F85D089FFA",
+                    To : 'boyuanliu6@yahoo.com',
+                    From : "boyuanliu6@yahoo.com",
+                    Subject : "boyuan12.github.io - " + subject,
+                    Body : body
+                }).then(
+                message => alert(message)
+                );
+                window.location.replace('')
+            }
+        </script>
+    </body>
+</html>
