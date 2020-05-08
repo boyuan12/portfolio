@@ -53,16 +53,20 @@ function moveBlob(last=false) {
             var cell = document.getElementById("cell-" + blobs[i]["row"] + "-" + blobs[i]["col"]);
             cell.setAttribute("style", "background-color:white");
 
-            if (document.getElementById("cell-" + blobs[i]["row"] + "-" + (blobs[i]["col"] - 1)).getAttribute("style") == "background-color:green") {
+            try {
+                if (document.getElementById("cell-" + blobs[i]["row"] + "-" + (blobs[i]["col"] - 1)).getAttribute("style") == "background-color:green") {
 
-                document.getElementById("cell-" + blobs[i]["row"] + "-" + (blobs[i]["col"] - 1)).setAttribute("style", "background-color:blue");
-                blobs[i]["col"] = blobs[i]["col"] - 1;
+                    document.getElementById("cell-" + blobs[i]["row"] + "-" + (blobs[i]["col"] - 1)).setAttribute("style", "background-color:blue");
+                    blobs[i]["col"] = blobs[i]["col"] - 1;
 
-            } else if (document.getElementById("cell-" + blobs[i]["row"] + "-" + (blobs[i]["col"] + 1)).getAttribute("style") == "background-color:green") {
-
-                document.getElementById("cell-" + blobs[i]["row"] + "-" + (blobs[i]["col"] + 1)).setAttribute("style", "background-color:blue");
-                blobs[i]["col"] = blobs[i]["col"] + 1;
-            } else {
+                } else if (document.getElementById("cell-" + blobs[i]["row"] + "-" + (blobs[i]["col"] + 1)).getAttribute("style") == "background-color:green") {
+                    document.getElementById("cell-" + blobs[i]["row"] + "-" + (blobs[i]["col"] + 1)).setAttribute("style", "background-color:blue");
+                    blobs[i]["col"] = blobs[i]["col"] + 1;
+                } else {
+                    document.getElementById("cell-" + (blobs[i]["row"] - 1) + "-" + blobs[i]["col"]).setAttribute("style", "background-color:blue");
+                    blobs[i]["row"] = blobs[i]["row"] - 1;
+                }
+            } catch (err) {
                 document.getElementById("cell-" + (blobs[i]["row"] - 1) + "-" + blobs[i]["col"]).setAttribute("style", "background-color:blue");
                 blobs[i]["row"] = blobs[i]["row"] - 1;
             }
