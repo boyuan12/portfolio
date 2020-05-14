@@ -2,37 +2,43 @@
 
 <html>
     <head>
-        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/13beda203e.js" crossorigin="anonymous"></script>
     </head>
-    <body>
-        <script src="https://smtpjs.com/v3/smtp.js">
-        </script>
 
-<h1>Elegant Contact Form</h1>
-<form class="cf" onsubmit="send_email(document.getElementById('input-name'), document.getElementById('input-email'), document.getElementById('input-subject'), document.getElementById('input-message'));">
-  <div class="half left cf">
-    <input type="text" id="input-name" placeholder="Name">
-    <input type="email" id="input-email" placeholder="Email address">
-    <input type="text" id="input-subject" placeholder="Subject">
-  </div>
-  <div class="half right cf">
-    <textareatype="text" id="input-message" placeholder="Message"></textareatype=>
-  </div>
-  <input type="submit" value="Submit" id="input-submit">
-</form>
-        <script>
-            function send_email(name, email, subject, body){
-                Email.send({
-                    SecureToken : "E5CA64E4FF73207F17C37EEE22F85D089FFA",
-                    To : 'boyuanliu6@yahoo.com',
-                    From : "boyuanliu6@yahoo.com",
-                    Subject : "boyuan12.github.io - " + subject,
-                    Body : body
-                }).then(
-                message => alert(message)
-                );
-                window.location.replace('')
-            }
-        </script>
+    <body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                  <strong>Boyuan Liu</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="bio.html">Bio/About</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="projects.html">Projects/Certificates</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="devwithme.html">DevWithMe</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+        <h1>Contact</h1>
+        <p>Want to get in contact with me? Feel free to <a href="mailto:boyuanliu6@yahoo.com">email me</a>.</p>
     </body>
-</html>
