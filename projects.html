@@ -1,204 +1,283 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="styles.css">
-        <script src="https://kit.fontawesome.com/13beda203e.js" crossorigin="anonymous"></script>
-    </head>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="styles.css">
+		<script src="https://kit.fontawesome.com/13beda203e.js" crossorigin="anonymous"></script>
+		<script src="index.js"></script>
+	</head>
 
-    <body>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <div class="container d-flex justify-content-between">
-                <a href="#" class="navbar-brand d-flex align-items-center">
-                  <strong>Boyuan Liu</strong>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              </div>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="bio.html">Bio/About</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="projects.html">Projects/Certificates</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="devwithme.html">DevWithMe</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
+	<body>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  <div class="container d-flex justify-content-between">
+				<a href="#" class="navbar-brand d-flex align-items-center">
+				  <strong>Boyuan Liu</strong>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+			  </div>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+				  <li class="nav-item active">
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				  </li>
+				  <li class="nav-item active">
+					<a class="nav-link" href="bio.html">Bio/About</a>
+				  </li>
+				  <li class="nav-item active">
+					<a class="nav-link" href="projects.html">Projects/Certificates</a>
+				  </li>
+				  <li class="nav-item active">
+					<a class="nav-link" href="contact.html">Contact</a>
+				  </li>
+				  <li class="nav-item active">
+					<a class="nav-link" href="devwithme.html">DevWithMe</a>
+				  </li>
+				</ul>
+			  </div>
+			</nav>
 
-          <main role="main">
-            <section class="jumbotron text-center">
-              <div class="container">
-                <h1 class="jumbotron-heading">My Projects/Certificates</h1>
-              </div>
-            </section>
+		  <section="main">
+			<section class="jumbotron text-center">
+			  <div class="container">
+				<h1 class="jumbotron-heading">My Projects/Certificates</h1>
+			  </div>
+			</section>
 
-            <div class="album py-5 bg-light">
-              <div class="container">
-                  <h1 id="projects">Programming Projects:</h1>
-                <div class="row">
-                  <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <a href="https://a-simple-gradebook.herokuapp.com">
-                      <img class="card-img-top" src="https://i.imgur.com/VcbiTdN.png" alt="Card image cap" height="200px" onerror="this.src='assets/image/A-Simple-Gradebook-Logo.png'">
-                    </a>
-                      <div class="card-body">
-                        <p class="card-text">(Work In Progress 🚧) This is a simple gradebook that can help empower teacher/admin during this pandemic.</p>
-                        <a href="https://github.com/boyuan12/A-Simple-Gradebook" class="card-link">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"></path></svg>
-                        </a>
-                        <a href="https://a-simple-gradebook.herokuapp.com" class="card-link">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 16" width="14" height="16"><path fill-rule="evenodd" d="M7 1C3.14 1 0 4.14 0 8s3.14 7 7 7c.48 0 .94-.05 1.38-.14-.17-.08-.2-.73-.02-1.09.19-.41.81-1.45.2-1.8-.61-.35-.44-.5-.81-.91-.37-.41-.22-.47-.25-.58-.08-.34.36-.89.39-.94.02-.06.02-.27 0-.33 0-.08-.27-.22-.34-.23-.06 0-.11.11-.2.13-.09.02-.5-.25-.59-.33-.09-.08-.14-.23-.27-.34-.13-.13-.14-.03-.33-.11s-.8-.31-1.28-.48c-.48-.19-.52-.47-.52-.66-.02-.2-.3-.47-.42-.67-.14-.2-.16-.47-.2-.41-.04.06.25.78.2.81-.05.02-.16-.2-.3-.38-.14-.19.14-.09-.3-.95s.14-1.3.17-1.75c.03-.45.38.17.19-.13-.19-.3 0-.89-.14-1.11-.13-.22-.88.25-.88.25.02-.22.69-.58 1.16-.92.47-.34.78-.06 1.16.05.39.13.41.09.28-.05-.13-.13.06-.17.36-.13.28.05.38.41.83.36.47-.03.05.09.11.22s-.06.11-.38.3c-.3.2.02.22.55.61s.38-.25.31-.55c-.07-.3.39-.06.39-.06.33.22.27.02.5.08.23.06.91.64.91.64-.83.44-.31.48-.17.59.14.11-.28.3-.28.3-.17-.17-.19.02-.3.08-.11.06-.02.22-.02.22-.56.09-.44.69-.42.83 0 .14-.38.36-.47.58-.09.2.25.64.06.66-.19.03-.34-.66-1.31-.41-.3.08-.94.41-.59 1.08.36.69.92-.19 1.11-.09.19.1-.06.53-.02.55.04.02.53.02.56.61.03.59.77.53.92.55.17 0 .7-.44.77-.45.06-.03.38-.28 1.03.09.66.36.98.31 1.2.47.22.16.08.47.28.58.2.11 1.06-.03 1.28.31.22.34-.88 2.09-1.22 2.28-.34.19-.48.64-.84.92s-.81.64-1.27.91c-.41.23-.47.66-.66.8 3.14-.7 5.48-3.5 5.48-6.84 0-3.86-3.14-7-7-7L7 1zm1.64 6.56c-.09.03-.28.22-.78-.08-.48-.3-.81-.23-.86-.28 0 0-.05-.11.17-.14.44-.05.98.41 1.11.41.13 0 .19-.13.41-.05.22.08.05.13-.05.14zM6.34 1.7c-.05-.03.03-.08.09-.14.03-.03.02-.11.05-.14.11-.11.61-.25.52.03-.11.27-.58.3-.66.25zm1.23.89c-.19-.02-.58-.05-.52-.14.3-.28-.09-.38-.34-.38-.25-.02-.34-.16-.22-.19.12-.03.61.02.7.08.08.06.52.25.55.38.02.13 0 .25-.17.25zm1.47-.05c-.14.09-.83-.41-.95-.52-.56-.48-.89-.31-1-.41-.11-.1-.08-.19.11-.34.19-.15.69.06 1 .09.3.03.66.27.66.55.02.25.33.5.19.63h-.01z"></path></svg>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                    <a href="https://devpost.com/software/epidemic-predictor">
-                        <img class="card-img-top" src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/001/032/801/datas/medium.png" alt="Epidemic Predictor Logo" height="200px" onerror="this.src='assets/image/Epidemic-Predictor-Logo.png'">
-                    </a>
-                    <div class="card-body">
-                        <p class="card-text">A Pypi package that can help you to predict when will next epidemic happen (will, is it accurate?)</p>
-                    </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <a href="https://boyuan12.github.io/Natural-Selection/">
-                      <img class="card-img-top" src="https://larryferlazzo.edublogs.org/files/2018/08/evolution_1535602924.png" alt="Natural Selection Logo" height="200px" onerror="this.src='assets/image/Natural-Selection-Logo.png'">
-                      </a>
-                      <div class="card-body">
-                        <p class="card-text">(Work In Progress 🚧) This is a project that demostrate natural selection. Inspired from <a href="https://www.youtube.com/watch?v=0ZGbIKd0XrM">this video</a>.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <a href="">
-                      <img class="card-img-top" src="https://i.imgur.com/eII66fz.png" alt="Card image cap" height="200px">
-                    </a>
-                      <div class="card-body">
-                        <p class="card-text">(Work In Progress 🚧) This is a small programming language that is going to empower beginner and programmer.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <a href="https://devpost.com/software/covaid-bot">
-                      <img class="card-img-top" src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/001/072/214/datas/medium.png" alt="Card image cap" height="200px">
-                      </a>
-                      <div class="card-body">
-                        <p class="card-text">(Collaborate Project) This is a chatbot/discord bot that can answer questions about COVID-19.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                    <a href="https://github.com/boyuan12/ReadSaltie">
-                        <img class="card-img-top" src="https://i.imgur.com/7Zqxbm4.png" alt="ReadSaltie Logo" height="200px">
-                    </a>
-                    <div class="card-body">
-                        <p class="card-text">A website that I created where you can read and share book online for free, forever.</p>
-                    </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <a href="https://devpost.com/software/carbon-footprint-a3lerx">
-                      <img class="card-img-top" src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/001/051/020/datas/medium.png" alt="Card image cap" height="200px">
-                    </a>
-                      <div class="card-body">
-                        <p class="card-text">(Collaborate Project) This is a website that can track your carbon footprint and see air quality around the world.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                  <h1>Certificates</h1>
-                  <div class="row">
-                    <div class="col-md-4">
-                          <div class="card mb-4 box-shadow">
-                          <a href="https://courses.edx.org/certificates/166fcdacb44a4eb7b163cde8900f726b">
-                              <img class="card-img-top" src="https://i.imgur.com/5QzZ8W4.jpg" alt="ReadSaltie Logo" height="200px">
-                          </a>
-                          <div class="card-body">
-                              <p class="card-text">MIT 6.00.1x (Introduction to CS and Intro to Python) Certificate | An edX verified certificate</p>
-                          </div>
-                          </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                        <a href="https://certificates.cs50.io/3e9f9111-4932-4e8d-8ea8-ff5ca27415cf.pdf">
-                            <img class="card-img-top" src="https://res.cloudinary.com/boyuan12/image/upload/v1589771742/CS50T_rhi3ku.png" alt="ReadSaltie Logo" height="200px">
-                        </a>
-                        <div class="card-body">
-                            <p class="card-text">Harvard University's OpenCourseWare's CS50 Technology - Introduction to Technology's Certificate</p>
-                        </div>
-                        </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                    <a href="https://certificates.cs50.io/7200d656-eb0c-44cb-8f9a-fd980418449c.pdf">
-                        <img class="card-img-top" src="https://res.cloudinary.com/boyuan12/image/upload/v1589771744/CS50W_b1k3ao.png" alt="ReadSaltie Logo" height="200px">
-                    </a>
-                    <div class="card-body">
-                        <p class="card-text">Harvard University's OpenCourseWare's CS50 Web - Introduction to Web Development Certificate</p>
-                    </div>
-                    </div>
-                  </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-4">
-                      <div class="card mb-4 box-shadow">
-                      <a href="https://www.hackerrank.com/certificates/80666972700b">
-                          <img class="card-img-top" src="https://res.cloudinary.com/boyuan12/image/upload/v1589770707/HackerRank_Python_Basic_Certificate_k0xr7f.png" alt="HackerRank Python Basic Certificate" height="200px">
-                      </a>
-                      <div class="card-body">
-                          <p class="card-text">HackerRank Python Basic Certificate | A HackerRank Verified Certification on 17 May, 2020</p>
-                      </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="card mb-4 box-shadow">
-                      <a href="https://www.hackerrank.com/certificates/ce93b668228b">
-                          <img class="card-img-top" src="https://res.cloudinary.com/boyuan12/image/upload/v1590251370/download_4_duywil.png" alt="HackerRank JavaScript Basic Certificate" height="200px">
-                      </a>
-                      <div class="card-body">
-                          <p class="card-text">HackerRank JavaScript Basic Certificate | A HackerRank Verified Certification on 23 May, 2020</p>
-                      </div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
+			<div class="album py-5 bg-light">
+			  <div class="container">
+					<h1 id="projects">Programming Projects:</h1>
+					<!-- <div class="row">
+				  <div class="col-md-4">
+					<div class="card mb-4 box-shadow">
+						<a href="https://a-simple-gradebook.herokuapp.com">
+					  <img class="card-img-top" src="https://i.imgur.com/VcbiTdN.png" alt="Card image cap" height="200px" onerror="this.src='assets/image/A-Simple-Gradebook-Logo.png'">
+					</a>
+					  <div class="card-body">
+						<p class="card-text">(Work In Progress 🚧) This is a simple gradebook that can help empower teacher/admin during this pandemic.</p>
+						<a href="https://github.com/boyuan12/A-Simple-Gradebook" class="card-link">
+						  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"></path></svg>
+						</a>
+						<a href="https://a-simple-gradebook.herokuapp.com" class="card-link">
+						  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 16" width="14" height="16"><path fill-rule="evenodd" d="M7 1C3.14 1 0 4.14 0 8s3.14 7 7 7c.48 0 .94-.05 1.38-.14-.17-.08-.2-.73-.02-1.09.19-.41.81-1.45.2-1.8-.61-.35-.44-.5-.81-.91-.37-.41-.22-.47-.25-.58-.08-.34.36-.89.39-.94.02-.06.02-.27 0-.33 0-.08-.27-.22-.34-.23-.06 0-.11.11-.2.13-.09.02-.5-.25-.59-.33-.09-.08-.14-.23-.27-.34-.13-.13-.14-.03-.33-.11s-.8-.31-1.28-.48c-.48-.19-.52-.47-.52-.66-.02-.2-.3-.47-.42-.67-.14-.2-.16-.47-.2-.41-.04.06.25.78.2.81-.05.02-.16-.2-.3-.38-.14-.19.14-.09-.3-.95s.14-1.3.17-1.75c.03-.45.38.17.19-.13-.19-.3 0-.89-.14-1.11-.13-.22-.88.25-.88.25.02-.22.69-.58 1.16-.92.47-.34.78-.06 1.16.05.39.13.41.09.28-.05-.13-.13.06-.17.36-.13.28.05.38.41.83.36.47-.03.05.09.11.22s-.06.11-.38.3c-.3.2.02.22.55.61s.38-.25.31-.55c-.07-.3.39-.06.39-.06.33.22.27.02.5.08.23.06.91.64.91.64-.83.44-.31.48-.17.59.14.11-.28.3-.28.3-.17-.17-.19.02-.3.08-.11.06-.02.22-.02.22-.56.09-.44.69-.42.83 0 .14-.38.36-.47.58-.09.2.25.64.06.66-.19.03-.34-.66-1.31-.41-.3.08-.94.41-.59 1.08.36.69.92-.19 1.11-.09.19.1-.06.53-.02.55.04.02.53.02.56.61.03.59.77.53.92.55.17 0 .7-.44.77-.45.06-.03.38-.28 1.03.09.66.36.98.31 1.2.47.22.16.08.47.28.58.2.11 1.06-.03 1.28.31.22.34-.88 2.09-1.22 2.28-.34.19-.48.64-.84.92s-.81.64-1.27.91c-.41.23-.47.66-.66.8 3.14-.7 5.48-3.5 5.48-6.84 0-3.86-3.14-7-7-7L7 1zm1.64 6.56c-.09.03-.28.22-.78-.08-.48-.3-.81-.23-.86-.28 0 0-.05-.11.17-.14.44-.05.98.41 1.11.41.13 0 .19-.13.41-.05.22.08.05.13-.05.14zM6.34 1.7c-.05-.03.03-.08.09-.14.03-.03.02-.11.05-.14.11-.11.61-.25.52.03-.11.27-.58.3-.66.25zm1.23.89c-.19-.02-.58-.05-.52-.14.3-.28-.09-.38-.34-.38-.25-.02-.34-.16-.22-.19.12-.03.61.02.7.08.08.06.52.25.55.38.02.13 0 .25-.17.25zm1.47-.05c-.14.09-.83-.41-.95-.52-.56-.48-.89-.31-1-.41-.11-.1-.08-.19.11-.34.19-.15.69.06 1 .09.3.03.66.27.66.55.02.25.33.5.19.63h-.01z"></path></svg>
+						</a>
+						<a href="https://a-simple-gradebook.herokuapp.com" class="card-link">
+						  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style=" fill:#000000;"><path d="M 6 2 L 0.625 12 L 6 22 L 18 22 L 23.457031 12 L 18 2 Z M 8 7 L 13.136719 7.007813 C 14.472656 7.195313 17 8.472656 17 12 C 17 15.527344 14.472656 16.804688 13.136719 16.988281 L 13.066406 17 L 8 17 Z M 10 9 L 10 15 L 12.914063 15 C 13.28125 14.925781 15 14.445313 15 12 C 15 9.566406 13.304688 9.078125 12.910156 9 Z"></path></svg>
+						</a>
+					  </div>
+					</div>
+				  </div>
+				  <div class="col-md-4">
+					<div class="card mb-4 box-shadow">
+					<a href="https://devpost.com/software/epidemic-predictor">
+						<img class="card-img-top" src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/001/032/801/datas/medium.png" alt="Epidemic Predictor Logo" height="200px" onerror="this.src='assets/image/Epidemic-Predictor-Logo.png'">
+					</a>
+					<div class="card-body">
+						<p class="card-text">A Pypi package that can help you to predict when will next epidemic happen (will, is it accurate?)</p>
+					</div>
+					</div>
+				  </div>
+				  <div class="col-md-4">
+					<div class="card mb-4 box-shadow">
+						<a href="https://boyuan12.github.io/Natural-Selection/">
+					  <img class="card-img-top" src="https://larryferlazzo.edublogs.org/files/2018/08/evolution_1535602924.png" alt="Natural Selection Logo" height="200px" onerror="this.src='assets/image/Natural-Selection-Logo.png'">
+					  </a>
+					  <div class="card-body">
+						<p class="card-text">(Work In Progress 🚧) This is a project that demostrate natural selection. Inspired from <a href="https://www.youtube.com/watch?v=0ZGbIKd0XrM">this video</a>.</p>
+					  </div>
+					</div>
+				  </div>
+				</div> -->
+					<!-- <div class="row">
+				  <div class="col-md-4">
+					<div class="card mb-4 box-shadow">
+						<a href="">
+					  <img class="card-img-top" src="https://i.imgur.com/eII66fz.png" alt="Card image cap" height="200px">
+					</a>
+					  <div class="card-body">
+						<p class="card-text">(Work In Progress 🚧) This is a small programming language that is going to empower beginner and programmer.</p>
+					  </div>
+					</div>
+				  </div>
+				  <div class="col-md-4">
+					<div class="card mb-4 box-shadow">
+						<a href="https://devpost.com/software/covaid-bot">
+					  <img class="card-img-top" src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/001/072/214/datas/medium.png" alt="Card image cap" height="200px">
+					  </a>
+					  <div class="card-body">
+						<p class="card-text">(Collaborate Project) This is a chatbot/discord bot that can answer questions about COVID-19.</p>
+					  </div>
+					</div>
+				  </div>
+				  <div class="col-md-4">
+					<div class="card mb-4 box-shadow">
+					<a href="https://github.com/boyuan12/ReadSaltie">
+						<img class="card-img-top" src="https://i.imgur.com/7Zqxbm4.png" alt="ReadSaltie Logo" height="200px">
+					</a>
+					<div class="card-body">
+						<p class="card-text">A website that I created where you can read and share book online for free, forever.</p>
+					</div>
+					</div>
+				  </div>
+				</div> -->
+					<!-- <div class="row"> -->
+					<!-- <div class="col-md-4">
+					<div class="card mb-4 box-shadow">
+						<a href="https://devpost.com/software/carbon-footprint-a3lerx">
+					  <img class="card-img-top" src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/001/051/020/datas/medium.png" alt="Card image cap" height="200px">
+					</a>
+					  <div class="card-body">
+						<p class="card-text">(Collaborate Project) This is a website that can track your carbon footprint and see air quality around the world.</p>
+					  </div>
+					</div>
+				  </div> -->
+				  <div class="row">
+					  <div class="col-md-4">
+						  <div class="card mb-4 box-shadow">
+							  <a href="#">
+								<img class="card-img-top" src="assets/image/URL-Shortener.png" alt="Card image cap" height="200px">
+							  </a>
+							  <div class="card-body">
+									<h5 class="card-title">URL Shortener</h5>
+									<h6 class="card-subtitle mb-2 text-muted">aka <a href="https://bitly.com">Bit.ly Clone</a></h6>
+									<p class="card-text">Fear not when you have long URL, now you can shorten the URL!</p>
+									<a href="https://github.com/boyuan12/Bit.ly-Clone" class="card-link">GitHub</a>
+									<a href="https://bitly-clone-flask.herokuapp.com" class="card-link">Website</a>
+							  </div>
+						  </div>
+					  </div>
+					  <div class="col-md-4">
+						<div class="card mb-4 box-shadow">
+							<a href="#">
+							  <img class="card-img-top" src="assets/image/Discord-Clone.png" alt="Card image cap" height="200px">
+							</a>
+							<div class="card-body">
+								  <h5 class="card-title">Live Chatting App</h5>
+								  <h6 class="card-subtitle mb-2 text-muted">aka <a href="https://discord.com">Discord Clone</a></h6>
+								  <p class="card-text">Live chatting web app with friends or colleague.</p>
+								  <a href="https://github.com/boyuan12/Discord-Clone" class="card-link">GitHub</a>
+								  <a href="https://discord-clone-flask.herokuapp.com" class="card-link">Website</a>
+							</div>
+						</div>
+					  </div>
+					  <div class="col-md-4">
+						<div class="card mb-4 box-shadow">
+							<a href="#">
+							  <img class="card-img-top" src="assets/image/AlgoExpert-Clone.png" alt="Card image cap" height="200px">
+							</a>
+							<div class="card-body">
+								  <h5 class="card-title">AlgoExpert Clone</h5>
+								  <h6 class="card-subtitle mb-2 text-muted">aka <a href="https://algoexpert.io">algoexpert.io Clone</a></h6>
+								  <p class="card-text">A clone for AlgoExpert, a platform to prep for your coding interview.</p>
+								  <a href="https://github.com/boyuan12/AlgoExpert-Clone" class="card-link">GitHub</a>
+								  <a href="https://algoexpertclone.herokuapp.com" class="card-link">Website</a>
+							</div>
+						</div>
+					  </div>
+				  </div>
+				  <div class="row">
+					  <div class="col-md-4">
+						<div class="card mb-4 box-shadow">
+							<a href="#">
+							  <img class="card-img-top" src="" alt="APOD Image" height="200px" id="apod-img">
+							</a>
+							<div class="card-body">
+								  <h5 class="card-title">APOD Viewer</h5>
+								  <h6 class="card-subtitle mb-2 text-muted">used <a href="https://apod.nasa.gov">NASA's APOD API</a></h6>
+								  <p class="card-text">Want to see a new Astronmoy picture each day?</p>
+								  <a href="https://github.com/boyuan12/APOD" class="card-link">GitHub</a>
+								  <a href="https://boyuan12.me/APOD/" class="card-link">Website</a>
+							</div>
+						</div>
+					  </div>
+					  <div class="col-md-4">
+						<div class="card mb-4 box-shadow">
+							<a href="#">
+							  <img class="card-img-top" src="assets/image/Static-Google-Clone.png" alt="APOD Image" height="200px">
+							</a>
+							<div class="card-body">
+								  <h5 class="card-title">Static Google Clone</h5>
+								  <h6 class="card-subtitle mb-2 text-muted">I ❤️ CSS! (not really)</h6>
+								  <p class="card-text">Troll your friend using this fake static Google clone!</p>
+								  <a href="https://github.com/boyuan12/APOD" class="card-link">GitHub</a>
+								  <a href="https://boyuan12.me/APOD/" class="card-link">Website</a>
+							</div>
+						</div>
+					  </div>
+				  </div>
+			  </div>
+			  <div class="container">
+				  <h1>Certificates</h1>
+				  <div class="row">
+					<div class="col-md-4">
+						  <div class="card mb-4 box-shadow">
+						  <a href="https://courses.edx.org/certificates/166fcdacb44a4eb7b163cde8900f726b">
+							  <img class="card-img-top" src="https://i.imgur.com/5QzZ8W4.jpg" alt="ReadSaltie Logo" height="200px">
+						  </a>
+						  <div class="card-body">
+							  <p class="card-text">MIT 6.00.1x (Introduction to CS and Intro to Python) Certificate | An edX verified certificate</p>
+						  </div>
+						  </div>
+					</div>
+					<div class="col-md-4">
+						<div class="card mb-4 box-shadow">
+						<a href="https://certificates.cs50.io/3e9f9111-4932-4e8d-8ea8-ff5ca27415cf.pdf">
+							<img class="card-img-top" src="https://res.cloudinary.com/boyuan12/image/upload/v1589771742/CS50T_rhi3ku.png" alt="ReadSaltie Logo" height="200px">
+						</a>
+						<div class="card-body">
+							<p class="card-text">Harvard University's OpenCourseWare's CS50 Technology - Introduction to Technology's Certificate</p>
+						</div>
+						</div>
+				  </div>
+				  <div class="col-md-4">
+					<div class="card mb-4 box-shadow">
+					<a href="https://certificates.cs50.io/7200d656-eb0c-44cb-8f9a-fd980418449c.pdf">
+						<img class="card-img-top" src="https://res.cloudinary.com/boyuan12/image/upload/v1589771744/CS50W_b1k3ao.png" alt="ReadSaltie Logo" height="200px">
+					</a>
+					<div class="card-body">
+						<p class="card-text">Harvard University's OpenCourseWare's CS50 Web - Introduction to Web Development Certificate</p>
+					</div>
+					</div>
+				  </div>
+				  </div>
+				  <div class="row">
+					<div class="col-md-4">
+					  <div class="card mb-4 box-shadow">
+					  <a href="https://www.hackerrank.com/certificates/80666972700b">
+						  <img class="card-img-top" src="https://res.cloudinary.com/boyuan12/image/upload/v1589770707/HackerRank_Python_Basic_Certificate_k0xr7f.png" alt="HackerRank Python Basic Certificate" height="200px">
+					  </a>
+					  <div class="card-body">
+						  <p class="card-text">HackerRank Python Basic Certificate | A HackerRank Verified Certification on 17 May, 2020</p>
+					  </div>
+					  </div>
+					</div>
+					<div class="col-md-4">
+					  <div class="card mb-4 box-shadow">
+					  <a href="https://www.hackerrank.com/certificates/ce93b668228b">
+						  <img class="card-img-top" src="https://res.cloudinary.com/boyuan12/image/upload/v1590251370/download_4_duywil.png" alt="HackerRank JavaScript Basic Certificate" height="200px">
+					  </a>
+					  <div class="card-body">
+						  <p class="card-text">HackerRank JavaScript Basic Certificate | A HackerRank Verified Certification on 23 May, 2020</p>
+					  </div>
+					  </div>
+					</div>
+				  </div>
+			  </div>
+			</div>
 
-          </main>
+		  </main>
 
-          <footer class="text-muted">
-            <div class="container">
-              <p class="float-right">
-                <a href="#">Back to top</a>
-              </p>
-              <p>2020 &copy; Boyuan Liu</p>
-            </div>
-          </footer>
-    </body>
+		  <footer class="text-muted">
+			<div class="container">
+			  <p class="float-right">
+				<a href="#">Back to top</a>
+			  </p>
+			  <p>2020 &copy; Boyuan Liu</p>
+			</div>
+		  </footer>
+	</body>
 </html>
