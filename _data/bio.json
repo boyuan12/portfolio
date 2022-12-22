@@ -1,43 +1,38 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Boyuan Liu",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "picture": "https://github.com/boyuan12.png",
+    "email": "boyuan@boyuan12.me",
+    "phone": "916-690-5297",
+    "website": "https://boyuan12.me",
+    "summary": "A confident, coachable and academic-inclined high school student",
+    "location": { "address": "", "postalCode": "95624", "city": "Elk Grove", "countryCode": "USA", "region": "California" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "mmaluhia", "url": "http://github.com/boyuan12" },
+      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/Boyuan-Liu" },
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
+    { "name": "Full-Stack Web Development" },
     { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Algorithms & Automations" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "JavaScript", "Python", "HTML/CSS", "Flask", "Django" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Git/GitHub",]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "institution": "Pleasant Grove High School, Elk Grove, CA",
+      "studyType": "High School Diploma",
+      "startDate": "2020-08-15",
       "endDate": "Present",
       "courses": [
       ]
